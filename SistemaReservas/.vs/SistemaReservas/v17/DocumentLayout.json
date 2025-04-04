@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReservas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2880DAA-AF42-4283-A1C6-A7389606DE8C}|SistemaReservas\\SistemaReservas.csproj|c:\\users\\rafael\\documents\\projetos-facu-csharp\\sistemareservas\\sistemareservas\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2880DAA-AF42-4283-A1C6-A7389606DE8C}|SistemaReservas\\SistemaReservas.csproj|solutionrelative:sistemareservas\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2880DAA-AF42-4283-A1C6-A7389606DE8C}|SistemaReservas\\SistemaReservas.csproj|c:\\users\\rafael\\documents\\projetos-facu-csharp\\sistemareservas\\sistemareservas\\dtos\\pessoadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2880DAA-AF42-4283-A1C6-A7389606DE8C}|SistemaReservas\\SistemaReservas.csproj|solutionrelative:sistemareservas\\dtos\\pessoadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReservas\\SistemaReservas\\DTOs\\PessoaDto.cs",
+              "RelativeDocumentMoniker": "SistemaReservas\\DTOs\\PessoaDto.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReservas\\SistemaReservas\\DTOs\\PessoaDto.cs",
+              "RelativeToolTip": "SistemaReservas\\DTOs\\PessoaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:41:26.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReservas\\SistemaReservas\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "SistemaReservas\\Models\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReservas\\SistemaReservas\\Models\\Pessoa.cs",
+              "RelativeToolTip": "SistemaReservas\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:23:31.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

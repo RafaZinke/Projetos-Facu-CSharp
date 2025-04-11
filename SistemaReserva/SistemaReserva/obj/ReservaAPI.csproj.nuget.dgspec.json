@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj": {}
+    "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj": {
+    "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj",
         "projectName": "ReservaAPI",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\ReservaAPI.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

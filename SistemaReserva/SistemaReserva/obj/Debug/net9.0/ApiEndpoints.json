@@ -1,5 +1,114 @@
 [
   {
+    "ContainingType": "ReservaAPI.Controllers.PeriodoController",
+    "Method": "GetPeriodos",
+    "RelativePath": "api/Periodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ReservaAPI.Models.Periodo, ReservaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.PeriodoController",
+    "Method": "PostPeriodo",
+    "RelativePath": "api/Periodo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "periodo",
+        "Type": "ReservaAPI.Models.Periodo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReservaAPI.Models.Periodo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.PeriodoController",
+    "Method": "GetPeriodo",
+    "RelativePath": "api/Periodo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReservaAPI.Models.Periodo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.PeriodoController",
+    "Method": "PutPeriodo",
+    "RelativePath": "api/Periodo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "periodo",
+        "Type": "ReservaAPI.Models.Periodo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.PeriodoController",
+    "Method": "DeletePeriodo",
+    "RelativePath": "api/Periodo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ReservaAPI.Controllers.PessoaController",
     "Method": "GetPessoas",
     "RelativePath": "api/Pessoa",
@@ -205,6 +314,53 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.SalaController",
+    "Method": "PutSala",
+    "RelativePath": "api/Sala/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sala",
+        "Type": "ReservaAPI.Models.Sala",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReservaAPI.Models.Sala",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservaAPI.Controllers.SalaController",
+    "Method": "DeleteSala",
+    "RelativePath": "api/Sala/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ReservaAPI.Controllers.SalaController",

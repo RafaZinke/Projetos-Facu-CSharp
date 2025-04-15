@@ -68,8 +68,10 @@ public class PessoaController : ControllerBase
             }
             else
             {
-                throw; // Repassa o erro se for outro motivo
+                
+                throw; 
             }
+
         }
 
         return CreatedAtAction(nameof(GetPessoa), new { id = pessoa.Id }, pessoa);
@@ -79,6 +81,7 @@ public class PessoaController : ControllerBase
     public async Task<IActionResult> PutPessoa(int id, Pessoa pessoa)
     {
         if (id != pessoa.Id) return BadRequest();
+        if (pessoa == null) return NotFound(); //Adicionado para evitar NullReferenceException
         _context.Entry(pessoa).State = EntityState.Modified;
         await _context.SaveChangesAsync();
         return NoContent();

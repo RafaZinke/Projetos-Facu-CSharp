@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\controllers\\periodocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\controllers\\periodocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\migrations\\20250411133707_addhorainiciohorafimtoperiodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\migrations\\20250411133707_addhorainiciohorafimtoperiodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\models\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\models\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\dev\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SalaController.cs",
-              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\SalaController.cs",
-              "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\SalaController.cs",
-              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\SalaController.cs",
-              "RelativeToolTip": "SistemaReserva\\Controllers\\SalaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250411133707_AddHoraInicioHoraFimToPeriodo.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Migrations\\20250411133707_AddHoraInicioHoraFimToPeriodo.cs",
+              "RelativeDocumentMoniker": "SistemaReserva\\Migrations\\20250411133707_AddHoraInicioHoraFimToPeriodo.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Migrations\\20250411133707_AddHoraInicioHoraFimToPeriodo.cs",
+              "RelativeToolTip": "SistemaReserva\\Migrations\\20250411133707_AddHoraInicioHoraFimToPeriodo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:57:17.391Z",
+              "WhenOpened": "2025-04-11T13:37:07.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Periodo.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Models\\Periodo.cs",
+              "RelativeDocumentMoniker": "SistemaReserva\\Models\\Periodo.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Models\\Periodo.cs",
+              "RelativeToolTip": "SistemaReserva\\Models\\Periodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:30:00.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeriodoController.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\PeriodoController.cs",
+              "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\PeriodoController.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\PeriodoController.cs",
+              "RelativeToolTip": "SistemaReserva\\Controllers\\PeriodoController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:28:36.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PessoaController.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\PessoaController.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\PessoaController.cs",
               "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\PessoaController.cs",
               "RelativeToolTip": "SistemaReserva\\Controllers\\PessoaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:12:49.729Z",
+              "WhenOpened": "2025-04-11T12:23:28.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaReserva\\Program.cs",
-              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Program.cs",
-              "RelativeToolTip": "SistemaReserva\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SalaController.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\SalaController.cs",
+              "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\SalaController.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\DEV\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\SalaController.cs",
+              "RelativeToolTip": "SistemaReserva\\Controllers\\SalaController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:08:00.92Z",
+              "WhenOpened": "2025-04-10T11:57:17.391Z",
               "EditorCaption": ""
             }
           ]

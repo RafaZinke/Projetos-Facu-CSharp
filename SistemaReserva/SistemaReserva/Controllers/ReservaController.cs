@@ -48,7 +48,7 @@ public class ReservaController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Reserva>> PostReserva(ReservaDTO dto)
     {
-        // Verifica se já existe reserva igual
+        
         bool conflito = await _context.Reservas.AnyAsync(r =>
             r.SalaId == dto.SalaId &&
             r.PeriodoId == dto.PeriodoId &&

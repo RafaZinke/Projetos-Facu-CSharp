@@ -12,6 +12,4 @@ public class Reserva
 
     public int PeriodoId { get; set; }
     public Periodo Periodo { get; set; }
-
-    public DateTime Data { get; set; }
 }

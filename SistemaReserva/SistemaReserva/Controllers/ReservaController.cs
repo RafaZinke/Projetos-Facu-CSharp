@@ -51,8 +51,7 @@ public class ReservaController : ControllerBase
         
         bool conflito = await _context.Reservas.AnyAsync(r =>
             r.SalaId == dto.SalaId &&
-            r.PeriodoId == dto.PeriodoId &&
-            r.Data.Date == DateTime.Now.Date);
+            r.PeriodoId == dto.PeriodoId);
 
         if (conflito)
         {
@@ -63,8 +62,7 @@ public class ReservaController : ControllerBase
         {
             PessoaId = dto.PessoaId,
             SalaId = dto.SalaId,
-            PeriodoId = dto.PeriodoId,
-            Data = DateTime.Now
+            PeriodoId = dto.PeriodoId
         };
 
         _context.Reservas.Add(reserva);

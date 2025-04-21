@@ -11,6 +11,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ReservaDbContext>(options =>
 options.UseNpgsql("Host=localhost;Database=reservasdb;Username=postgres;Password=postgres"));
 //rodar o dotnet ef database update na nova maquina dentro do console de gerenciador de pacotes
+//rodar antes do update dotnet tool install --global dotnet-ef caso de erro
+//entrar em http://localhost:5041/swagger após executar
 
 
 var app = builder.Build();

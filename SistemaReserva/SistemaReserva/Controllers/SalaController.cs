@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReservaAPI.Data;
+using ReservaAPI.DTOs;
 using ReservaAPI.Models;
 
 namespace ReservaAPI.Controllers
@@ -35,13 +36,16 @@ namespace ReservaAPI.Controllers
             return Ok(sala);
         }
         [HttpPost]
-        public async Task<ActionResult<Sala>> PostSala(Sala sala)
+        public async Task<ActionResult<Sala>> PostSala(SalaDTO salaDto)
         {
-            if (sala.Id <= 0)
+            var sala = new Sala
             {
-                return BadRequest("Sala não pode ter ID negativo.");
-            }
+                Nome = salaDto.Nome,
+                LocalizacaoId = salaDto.LocalizacaoId
+            };
+
             _context.Salas.Add(sala);
+
             try
             {
                 await _context.SaveChangesAsync();
@@ -57,8 +61,10 @@ namespace ReservaAPI.Controllers
                     throw;
                 }
             }
+
             return CreatedAtAction(nameof(GetSala), new { id = sala.Id }, sala);
         }
+
 
 
         [HttpPut("{id}")]

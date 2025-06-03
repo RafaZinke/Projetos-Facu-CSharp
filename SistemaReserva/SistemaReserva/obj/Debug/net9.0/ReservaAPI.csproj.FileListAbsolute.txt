@@ -541,3 +541,4 @@ C:\Users\Rafael\Documents\Facu\Projetos-Facu-CSharp\SistemaReserva\SistemaReserv
 C:\Users\Rafael\Documents\Facu\Projetos-Facu-CSharp\SistemaReserva\SistemaReserva\obj\Debug\net9.0\ref\ReservaAPI.dll
 C:\Users\Rafael\Documents\Facu\Projetos-Facu-CSharp\SistemaReserva\SistemaReserva\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Rafael\Documents\Projetos-Facu-CSharp\SistemaReserva\SistemaReserva\obj\Debug\net9.0\ReservaAPI.sourcelink.json
+C:\Users\Rafael\Documents\Projetos-Facu-CSharp\SistemaReserva\SistemaReserva\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|c:\\users\\rafael\\documents\\projetos-facu-csharp\\sistemareserva\\sistemareserva\\data\\reservadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23E19A6C-C859-4127-91BD-ABC8E0AAA9D5}|SistemaReserva\\ReservaAPI.csproj|solutionrelative:sistemareserva\\data\\reservadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SalaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Dto\\SalaDTO.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Dto\\SalaDTO.cs",
@@ -43,11 +47,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T13:06:58.398Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaReserva\\Program.cs",
+              "ToolTip": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Program.cs",
+              "RelativeToolTip": "SistemaReserva\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T19:54:14.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Sala.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Models\\Sala.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Models\\Sala.cs",
@@ -60,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SalaController.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\SalaController.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\SalaController.cs",
@@ -68,11 +86,12 @@
               "RelativeToolTip": "SistemaReserva\\Controllers\\SalaController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAiwCEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:08:19.829Z"
+              "WhenOpened": "2025-05-28T13:08:19.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LocalizacaoController.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Controllers\\LocalizacaoController.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Controllers\\LocalizacaoController.cs",
@@ -80,17 +99,18 @@
               "RelativeToolTip": "SistemaReserva\\Controllers\\LocalizacaoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:52:07.83Z"
+              "WhenOpened": "2025-05-28T12:52:07.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ReservaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Data\\ReservaDbContext.cs",
               "RelativeDocumentMoniker": "SistemaReserva\\Data\\ReservaDbContext.cs",
               "ToolTip": "C:\\Users\\Rafael\\Documents\\Projetos-Facu-CSharp\\SistemaReserva\\SistemaReserva\\Data\\ReservaDbContext.cs",
               "RelativeToolTip": "SistemaReserva\\Data\\ReservaDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T13:19:54.759Z",
               "EditorCaption": ""

@@ -1,22 +1,16 @@
-// src/App.js
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-
 import NavBar from './components/NavBar';
 
-// Páginas de Pessoa
+// Importar páginas
 import PessoaList from './pages/Pessoa/PessoaList';
 import PessoaForm from './pages/Pessoa/PessoaForm';
 
-// Páginas de Sala
 import SalaList from './pages/Sala/SalaList';
 import SalaForm from './pages/Sala/SalaForm';
 
-// Páginas de Período
 import PeriodoList from './pages/Periodo/PeriodoList';
 import PeriodoForm from './pages/Periodo/PeriodoForm';
 
-// Páginas de Reserva
 import ReservaList from './pages/Reserva/ReservaList';
 import ReservaForm from './pages/Reserva/ReservaForm';
 
@@ -26,25 +20,24 @@ function App() {
       <NavBar />
       <div style={{ padding: '1rem' }}>
         <Routes>
-          {/* Redireciona "/" para a listagem de Pessoas */}
-          <Route path="/" element={<Navigate to="/pessoas" replace />} />
-
-          {/* Rotas de Pessoa */}
+          <Route path="/" element={<Navigate to="/pessoas" />} />
+          
+          {/* Pessoa */}
           <Route path="/pessoas" element={<PessoaList />} />
           <Route path="/pessoas/novo" element={<PessoaForm />} />
           <Route path="/pessoas/editar/:id" element={<PessoaForm />} />
 
-          {/* Rotas de Sala */}
+          {/* Sala */}
           <Route path="/salas" element={<SalaList />} />
           <Route path="/salas/novo" element={<SalaForm />} />
           <Route path="/salas/editar/:id" element={<SalaForm />} />
 
-          {/* Rotas de Período */}
+          {/* Período */}
           <Route path="/periodos" element={<PeriodoList />} />
           <Route path="/periodos/novo" element={<PeriodoForm />} />
           <Route path="/periodos/editar/:id" element={<PeriodoForm />} />
 
-          {/* Rotas de Reserva */}
+          {/* Reserva */}
           <Route path="/reservas" element={<ReservaList />} />
           <Route path="/reservas/novo" element={<ReservaForm />} />
           <Route path="/reservas/editar/:id" element={<ReservaForm />} />
